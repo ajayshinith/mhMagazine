@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title>MH MAGAZINE 2020</title> 
+    <script type="text/javascript"> 
+        function test_str() { 
+            var res; 
+            var str = 
+                document.getElementById("t1").value; 
+            if (str=="hatersmakeusfamous"){
+		window.location="https://drive.google.com/folderview?id=1Zq0NPnO13Q1TipKOqSwuCMulVUVBBMYc";
+ 
+                res = "LOADING......";} 
+            else{
+ 
+                res = "INCORRECT PASSWORD."; }
+              document.getElementById("t2").value = res; 
+
+        } 
+    </script> 
+</head> 
+  
+<body> 
+    <p> 
+        PASSWORD 
+        <input type="text" 
+               placeholder="abc"
+               id="t1" /> 
+        <br/> 
+        <br/> 
+        <input type="button"
+               value="Check" 
+               onclick="test_str()" /> 
+        <br/> 
+        <br/>
+        <input type="OUTPUT" 
+               id="t2"
+               readonly/> 
+    </p> 
+</body> 
+  
+</html> 
